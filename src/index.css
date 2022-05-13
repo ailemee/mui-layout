@@ -24,7 +24,21 @@ code {
   flex-direction: column;
   height: 100vh;
 }
+.cardContent {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
 
 .sideDrawer {
   background-color: black;
+}
+
+@media (max-width:600px) {
+  .cardContent {
+    margin-top: 105px;
+  }
 }

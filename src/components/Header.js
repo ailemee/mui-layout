@@ -1,17 +1,9 @@
 import * as React from "react";
-import { AppBar, Toolbar } from "@mui/material";
+import { AppBar, Toolbar, Grid, IconButton, Menu, MenuItem, ListItemIcon, Divider, ListItemText, Avatar } from "@mui/material";
 import { Box } from "@mui/system";
 import { AccountCircle, Settings } from "@mui/icons-material";
-import { Grid } from "@mui/material";
-import { IconButton } from "@mui/material";
-import { Menu } from "@mui/material";
-import { MenuItem } from "@mui/material";
-import { Avatar } from "@mui/material";
-import { ListItemIcon } from "@mui/material";
 import PersonIcon from "@mui/icons-material/Person";
-import { Divider } from "@mui/material";
 import LogoutIcon from "@mui/icons-material/Logout";
-import { ListItemText } from "@mui/material";
 import { Link } from "react-router-dom";
 
 export default function Header() {
@@ -27,7 +19,7 @@ export default function Header() {
 
   return (
     <Box>
-      <AppBar position="static" style={{ background: "#4B0082" }}>
+      <AppBar position="fixed" style={{ background: "#4B0082" }}>
         <Toolbar>
           <Grid justify={"space-between"} container>
             <Grid item xs={11} />
