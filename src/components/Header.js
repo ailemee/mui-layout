@@ -82,7 +82,7 @@ export default function Header() {
               >
                 <MenuItem>
                   <ListItemIcon>
-                    <Settings fontsize="small" />
+                    <Settings fontSize="small" />
                   </ListItemIcon>
                   Settings View
                 </MenuItem>

@@ -44,9 +44,18 @@ export default function DrawerLeft() {
           </ListItemText>
         </Toolbar>
         <Divider />
-        <ListItemIcon>
-          <Avatar sx={{ width: 100, height: 100 }} />
-        </ListItemIcon>
+        <Box
+          sx={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <ListItemIcon>
+            <Avatar sx={{ width: 100, height: 100 }} />
+          </ListItemIcon>
+        </Box>
+
         <Typography
           style={{
             padding: "5px",
